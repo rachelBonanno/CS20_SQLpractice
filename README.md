@@ -1,5 +1,8 @@
 # CS20_SQLpractice
 ## Tasks
+Write down the correct query to solve each problem – use the NORTHWIND database supplied in 
+class, not the online database. 
+
 ### Part 1
 <ul>
 <t> 1. Display the company name, contact name, and title for all CUSTOMERS. <br>

@@ -35,5 +35,5 @@ WHERE categories.CategoryID = '1'
 SELECT products.ProductName, suppliers.CompanyName FROM products 
 JOIN suppliers 
 	ON suppliers.SupplierID = products.SupplierID
-WHERE products.UnitPrice < 10 AND suppliers.Country = "USA"
-	```
+WHERE products.UnitPrice < 10 AND suppliers.Country = "USA"			     
+```

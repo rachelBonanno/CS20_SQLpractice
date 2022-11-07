@@ -32,8 +32,8 @@ WHERE categories.CategoryID = '1'
  ``` 
 <t> 8. Display the product name and supplier name for all products that cost less than $10 but only for suppliers from the US. <br>
   ``` 
-SELECT products.ProductName FROM products 
+SELECT products.ProductName, suppliers.CompanyName FROM products 
 JOIN suppliers 
-	ON products.CategoryId = categories.CategoryID 
-WHERE UnitPrice BETWEEN 10 AND 20
+	ON suppliers.SupplierID = products.SupplierID
+WHERE products.UnitPrice < 10 AND suppliers.Country = "USA"
 	```

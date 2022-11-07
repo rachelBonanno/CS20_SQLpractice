@@ -13,7 +13,7 @@ class, not the online database.
 
 
 ### Part 2 – Advanced
-You may use a manual lookup for this set of queries
+You may use a manual lookup for this set of queries <br>
 <t> 4. Display all countries for which the company has CUSTOMERS - with no repeats <br>
     ``` SELECT DISTINCT Country FROM customers ``` <br>
 <t> 5. Display the PRODUCT name and price for suppliers 9-15 sorted by supplier number and then by product name <br>
@@ -22,8 +22,8 @@ You may use a manual lookup for this set of queries
   ``` SELECT LastName, FirstName FROM employees WHERE Title LIKE '%Sales%' ORDER BY LastName ASC ``` <br>
 
 ### Part 3 – Joins
-Use a Join to solve each of the following (i.e., you may NOT use a manual lookup)
+Use a Join to solve each of the following (i.e., you may NOT use a manual lookup) <br>
 <t> 7. Display the names of all products in the beverages category <br>
     ``` ``` <br>
-<t> 8. Display the product name and supplier name for all products that cost less than $10 but only for suppliers from the US.
+<t> 8. Display the product name and supplier name for all products that cost less than $10 but only for suppliers from the US. <br>
   ``` ``` <br>

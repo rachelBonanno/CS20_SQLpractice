@@ -15,7 +15,7 @@ class, not the online database.
 ### Part 2 – Advanced
 You may use a manual lookup for this set of queries
 <t> 4. Display all countries for which the company has CUSTOMERS - with no repeats <br>
-    ``` ``` <br>
+    ``` SELECT DISTINCT Country FROM customers ``` <br>
 <t> 5. Display the PRODUCT name and price for suppliers 9-15 sorted by supplier number and then by product name <br>
     ``` ``` <br>
 <t> 6. Display the name of all EMPLOYEES involved with sales (hint: use the title) sorted alphabetically by their last name.

@@ -24,6 +24,11 @@ You may use a manual lookup for this set of queries <br>
 ### Part 3 – Joins
 Use a Join to solve each of the following (i.e., you may NOT use a manual lookup) <br>
 <t> 7. Display the names of all products in the beverages category <br>
-    ``` ``` <br>
+``` 
+SELECT ProductName FROM products 
+JOIN categories 
+	ON products.CategoryId = categories.CategoryID 
+WHERE categories.CategoryID = '1' 
+ ``` 
 <t> 8. Display the product name and supplier name for all products that cost less than $10 but only for suppliers from the US. <br>
   ``` ``` <br>

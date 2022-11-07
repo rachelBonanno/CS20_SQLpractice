@@ -7,7 +7,7 @@ class, not the online database.
 <t> 1. Display the company name, contact name, and title for all CUSTOMERS. <br>
  ``` select CompanyName, ContactName, ContactTitle from customers ``` <br>
 <t> 2. Display all information for all German SUPPLIERS <br>
-  ``` ``` <br>
+  ``` SELECT * FROM suppliers WHERE Country = "Germany" ``` <br>
 <t> 3. Display name, unit price of all PRODUCTS whose price is between $10 and $20 sorted from highest to lowest price
     ``` ``` <br>
 

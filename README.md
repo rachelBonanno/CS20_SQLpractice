@@ -18,8 +18,8 @@ You may use a manual lookup for this set of queries
     ``` SELECT DISTINCT Country FROM customers ``` <br>
 <t> 5. Display the PRODUCT name and price for suppliers 9-15 sorted by supplier number and then by product name <br>
     ``` SELECT ProductName, UnitPrice FROM products WHERE SupplierID BETWEEN 9 AND 15 ORDER BY SupplierID ASC, ProductID ASC ``` <br>
-<t> 6. Display the name of all EMPLOYEES involved with sales (hint: use the title) sorted alphabetically by their last name.
-  ``` ``` <br>
+<t> 6. Display the name of all EMPLOYEES involved with sales (hint: use the title) sorted alphabetically by their last name. <br>
+  ``` SELECT LastName, FirstName FROM employees WHERE Title LIKE '%Sales%' ORDER BY LastName ASC ``` <br>
 
 ### Part 3 – Joins
 Use a Join to solve each of the following (i.e., you may NOT use a manual lookup)

@@ -9,7 +9,11 @@ class, not the online database.
 <t> 2. Display all information for all German SUPPLIERS <br>
   ``` SELECT * FROM suppliers WHERE Country = "Germany" ``` <br>
 <t> 3. Display name, unit price of all PRODUCTS whose price is between $10 and $20 sorted from highest to lowest price <br>
-    ``` SELECT ProductName, UnitPrice FROM products WHERE UnitPrice BETWEEN 10 AND 20 ``` <br>
+    ``` 
+    SELECT ProductName, UnitPrice FROM products 
+    WHERE UnitPrice BETWEEN 10 AND 20
+    ORDER BY UnitPrice DESC
+    ```
 
 
 ### Part 2 – Advanced
